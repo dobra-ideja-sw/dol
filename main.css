@@ -1,0 +1,179 @@
+#container {
+	margin-left: 20%;
+	width: 870px;
+}
+#main {	
+	width: 500px;
+	height: 70%;
+	float:left;
+	margin-right: 60px;
+	margin-bottom: 40px;
+	margin-top: 150px;
+}
+h1 {
+	font-family: Cambria, Book Antiqua, Arial;
+	font-style: italic;
+	font-size: 21px;
+	border-bottom: 1px dotted grey;	
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	text-align: right;
+	font-weight: normal;
+	color: grey;
+}
+h1 #title {
+	font-weight: bold;
+	color: black;
+}
+h2 {
+	letter-spacing:1px;
+	font-family: Cambria, Book Antiqua, Arial;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 110px;
+	padding-top: 10px;
+	padding-bottom:15px;
+	font-size: 18px;	
+	text-align: right;
+	font-weight: bold;
+	color: grey;
+}
+#text {
+	width: 100%;
+	height: 330px;
+	border: 1px solid #dddddd;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+}
+#text p {
+	padding: 25% 5% 5%;
+	font-family: Calibri, Arial;
+	font-size: 16px;
+}
+.navigation {
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	font-weight: bold;	
+	color: grey;
+}
+.navigation:hover {
+	color: black;
+	cursor: pointer;
+}
+#navigation-left {
+	float: left;
+}
+#navigation-right {
+	float: right;
+}
+#pageno {
+	margin-left: 40%;
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	color: grey;
+}
+#left {
+	width: 300px;
+	float: left;	
+}
+ol {
+	color: grey;
+	width: 100%;
+	font-family: Calibri, Arial;
+	list-style-type: none;
+}
+ol#menu {
+	padding-top: 127px;
+	padding-bottom: 20px;
+}
+ol li h3 {
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+ol li {
+	max-width: 650px;
+}
+ol#menu li {
+	padding: 5px;
+	border-bottom: 1px dotted black;
+	color: grey;
+}
+ol li:hover {
+	color:black;
+	cursor: pointer;
+}
+ol #listtitle {
+	display: block;
+	margin-left: 240px;
+	font-size: 18px;
+	font-style: italic;
+}
+#footer {
+	width: 100%;
+	height: 100px;
+	border-top: 1px dotted grey;
+	clear: both;
+}
+.footer-link a {
+	font-family: Calibri, Arial;
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+}
+.footer-link a:hover {
+	color: grey;
+}
+.right {
+	float:right;
+	margin-left: 20px;
+}
+.left {
+	float:left;
+	margin-right: 20px;
+}
+li a {
+	text-decoration: none;
+	color: grey;
+}
+li a:hover {
+	color: black;
+}
+
+/*embedded article html*/
+#content {
+	width: 750px;
+	height: 550px;
+	overflow: auto;
+	overflow-x: hidden;
+	margin-left: -200px;
+	margin-top: -100px;
+	word-wrap: normal;
+}
+#content h1 {
+	text-align: left;
+	margin: 15px 0;
+}
+#content ol {
+	counter-reset: section;
+}
+#content ol ol {
+	padding-bottom: 30px;
+	counter-reset: subsection;
+}
+#content ol li {
+	padding-top: 10px;
+}
+#content ol li:before {
+	counter-increment: section;
+	content: counter(section) ".";
+}
+#content ol li ol li:before {
+	counter-increment: subsection;
+	content: counter(section) "." counter(subsection) ".";
+}
+
