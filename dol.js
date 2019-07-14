@@ -28,7 +28,11 @@ $(document).ready(function() {
     $("#intro").click(function() {
         $.get("./uvod.html", function(data) {
             //console.log("data: " + data.activeElement.outerHTML);
-            $("#content").html(data.activeElement.outerHTML);
+            if (data.activeElement) {
+                $("#content").html(data.activeElement.outerHTML);
+            } else {
+                $("#content").html(data);
+            }
         })
         $("#box").hide();
         $("#content").fadeIn();

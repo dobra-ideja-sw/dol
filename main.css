@@ -1,3 +1,6 @@
+body {
+	font-size: 16px;
+}
 #container {
 	margin-left: 20%;
 	width: 870px;
@@ -50,7 +53,6 @@ h2 {
 #text p {
 	padding: 25% 5% 5%;
 	font-family: Calibri, Arial;
-	font-size: 16px;
 }
 .navigation {
 	font-family: Calibri, Arial;
