@@ -1,0 +1,24 @@
+{
+  "name": "dol",
+  "version": "0.0.1",
+  "description": "Milan Jankovic Srb: Duhovno obrazovanje licnosti",
+  "main": "dol.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobra-ideja-sw/dol.git"
+  },
+  "keywords": [
+    "duhovnost",
+    "obrazovanje",
+    "Milan Jankovic Srb"
+  ],
+  "author": "Ivan Matavulj",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/dobra-ideja-sw/dol/issues"
+  },
+  "homepage": "https://github.com/dobra-ideja-sw/dol#readme"
+}
