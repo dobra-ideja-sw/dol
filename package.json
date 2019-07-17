@@ -2,7 +2,7 @@
   "name": "dol",
   "version": "0.0.1",
   "description": "Milan Jankovic Srb: Duhovno obrazovanje licnosti",
-  "main": "dol.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/dobra-ideja-sw/dol/issues"
   },
-  "homepage": "https://github.com/dobra-ideja-sw/dol#readme"
+  "homepage": "https://github.com/dobra-ideja-sw/dol#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  }
 }

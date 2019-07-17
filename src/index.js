@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 $(document).ready(function() {
     $('#text p:not(:first)').hide();
     $('#pageno').text( '1/' + $('#text p').length);
